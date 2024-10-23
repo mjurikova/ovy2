@@ -67,3 +67,7 @@ a:hover{
     background-color: #D90368;
     text-decoration:underline ;
 }
+
+h1::before{
+    content: "💻";
+}
