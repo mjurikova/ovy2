@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+    text-align: center; 
+    margin: auto;
+    margin-top: 30px;
+    }
+.one{
+    padding: 10px;
+}
+h1{
+       
+        color: rgba(255, 42, 0, 0.695);    
+}
+
+h2{
+    color: rgba(255, 42, 0, 0.695);    
+}
+
+h4 {
+    text-align: center; color: rgba(0, 0, 0, 0.598);
+}
+
+.cointainer {
+   margin: 0 auto;
+   max-width: 900px ;
+   color: rgba(0, 0, 0, 0.598);
+}
+
+
+.border {
+    font-family: serif;
+    padding: 40px;
+    font-size: 20px;
+    border-top: solid 1px #c4c4c4a9;
+    border-bottom: solid 1px #c4c4c4a9;
+}

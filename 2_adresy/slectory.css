@@ -1,0 +1,31 @@
+h2{
+    color: rgb(31, 172, 125);
+    background-color: antiquewhite;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    width: 800px;
+}
+
+.farba {
+    color: rgb(224, 54, 167);
+    text-transform: uppercase;
+}
+
+.perex{
+    font-size: larger;
+    font-style: italic;
+}
+
+strong {
+    color: rgb(247, 119, 168);
+}
+
+#odlisenie{
+    font-style: oblique;
+    background-color: blue;
+}

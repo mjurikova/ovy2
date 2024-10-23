@@ -1,0 +1,20 @@
+body{
+    margin: auto;
+    width: 1200px;
+}
+
+.cointainer {
+    margin: 100px;
+    border: 10px double rgb(48, 204, 204) ;
+    padding: 70px; 
+    margin-bottom: 0px;
+    border-top:7px dotted coral;
+    border-right: 7px double purple;
+    border-bottom: 7px dotted ; 
+    border-left:7px double grey ;
+}
+
+h1{
+    border-top: 10px solid yellow;
+    padding: 15px;
+}

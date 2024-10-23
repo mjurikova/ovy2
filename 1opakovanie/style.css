@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+color: cadetblue;
+font-family: cursive;
+}
+
+h2 {
+    color: brown;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    color: blue;
+}
+
+.stredne{
+    color: black;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.male{
+    color: rgb(7, 6, 8);
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mama {
+background-color: yellow;
+}

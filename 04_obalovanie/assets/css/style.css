@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;;
+    color: hsl(30, 10%, 34%);
+    font-size: 12px;
+}
+
+.cointainer{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+h3{
+    color:  hsl(332, 51%, 32%);
+    margin-left: 20px;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.fialove{
+  background-color: hsla(330, 100%, 98%, 0.911);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.fialove::marker{
+    color: hsl(30, 10%, 34%);
+
+}
+
+
+th{
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    text-align: justify;
+    padding: 2px;
+}
+
+td, th{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+  }
+
+  li{
+    padding: 5px;
+}
