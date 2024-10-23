@@ -71,3 +71,24 @@ a:hover{
 h1::before{
     content: "💻";
 }
+
+.cta-button:hover{
+    background-color: #FFC300;
+    box-shadow: 2px 2px 4px #575656;
+}
+
+.description::first-letter{
+    font-size: larger;
+    color: #D90368;
+}
+
+::selection{
+    background-color: #FFD700;
+    color: #2E294E;
+}
+
+@media (max-width: 600px) {
+   li:last-child{
+    display: none;
+}
+}
