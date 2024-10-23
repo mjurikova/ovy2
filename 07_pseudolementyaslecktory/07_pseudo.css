@@ -92,3 +92,9 @@ h1::before{
     display: none;
 }
 }
+
+button:disabled {
+    color: #575656;
+    background-color: #c9c4c4;
+    cursor: not-allowed;
+}
