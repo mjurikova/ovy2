@@ -1,0 +1,15 @@
+:root{
+    --filaova: hsl(263, 55%, 52%);
+    --modra: hsl(217, 19%, 35%);
+    --tmavo-modra: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+
+    --tmavsia-seda: hsl(0, 0%, 81%);
+    --svetla-seda: hsl(210, 46%, 95%);
+}
+
+h1{
+    color: var(--filaova);
+}
+    
+    
