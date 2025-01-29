@@ -1,0 +1,54 @@
+ html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 2px orange dashed;
+
+
+
+ 
+}
+
+@media screen and (max-width: 600px) {
+    body{ 
+        background-color: blueviolet;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+
+
+    }
+}
+
+
+p{
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.prvy{
+    background-color: plum;
+}
+
+.druhy{
+    background-color: burlywood;
+}
+
+.treti{
+    background-color: cyan;
+}

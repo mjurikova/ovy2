@@ -1,0 +1,88 @@
+header{
+    background-color: #ffb663;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+footer{
+    background-color: #995092;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: #12a32d;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main{
+    background-color: #0f61cc;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside{
+    background-color: #6c6c6c;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) /*mobil*/ { 
+    nav{
+       display: none;
+       
+    } 
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) /*tablet*/ {  
+    .wrapper{
+        display: flex;
+        flex-wrap:wrap ;
+        gap: 10px
+    } 
+    nav{
+        order: 1 ;
+        
+        flex: 1 1 calc(50% - 10px);
+    }
+    aside{
+        order: 2;
+    
+        flex: 1 1 calc(50% - 10px);
+    }
+    main{
+        order: 3;
+    }
+
+}
+
+@media screen and (min-width: 1025px) /*desktop*/ {    
+    .wrapper{
+        display: flex;
+        gap: 20px;
+        flex: 1 1 calc(50% - 20px);
+       
+    }
+    .content{
+        margin: 0 auto;
+        width: 80%;
+    }
+   
+    nav{
+        flex: 1 
+        
+    }
+    
+    main{
+        flex: 2 ;
+    }
+
+    aside{
+        flex: 1;
+    }
+
+}
