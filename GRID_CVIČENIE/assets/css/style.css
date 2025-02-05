@@ -68,3 +68,62 @@ header{
     background-color: var(--white);
     color: var(--tmavo-modra);
 }
+=======
+}
+<<<<<<< HEAD
+ 
+article{
+    padding: 35px;
+    margin: 35px;
+    border-radius: 10px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+img.round {
+    border-radius: 50%;
+}
+ 
+.text{
+    padding: 0px 20px;
+    line-height: 0;
+}
+header{
+    display: flex;
+}
+   
+.box1{
+    background-color: var(--filaova);
+    color: var(--white);
+}
+ 
+.box2{
+    background-color: var(--modra);
+    color: var(--white);
+}
+ 
+.box3{
+    background-color: var(--white);
+    color: var(--tmavo-modra);
+}
+ 
+.box4{
+    background-color: var(--tmavo-modra);
+    color: var(--white);
+}
+ 
+.box5{
+    background-color: var(--white);
+    color: var(--tmavo-modra);
+}
+=======
+
+article{
+    padding: 50px;
+    background-color: var( hsl(210, 46%, 95%););
+}
+    
+    
+>>>>>>> 5087833df339e4dbbab0663e753086c70386c0bb
+>>>>>>> 2541b568db8a938c40b530a8d7bfb65250ef3ead
