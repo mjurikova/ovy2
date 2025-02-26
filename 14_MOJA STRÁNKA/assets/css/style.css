@@ -51,24 +51,52 @@ nav ul li a {
     padding: 10px;
 }
 
-header {
+main {
     padding: 100px 20px 20px;
     background-color: #fff;
 }
 
-header img {
-    width: 200px;
-    height: 252px;
-    margin-top: 10px;
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 220px;
+    margin: 20px 0;
+
+}
+
+.intro {
+    background: var(--vanila);
+    padding: 90px;
+    margin: 20px auto;
+    max-width: 90%;
+   
+   
+}
+
+.contact-btn {
+    background:var(--brown);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 footer {
-    background-color:var(--cream);    
-    font-size: 14px;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100vw;
+    height: 10vh; /* Footer bude zaberať 10% výšky obrazovky */
+    background:var(--cream);
+    display: flex;
+    flex-direction: column; /* KED APKY LOGA*/
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
 }
-/*urobit to cez vw/vh ten footer*/
+
+

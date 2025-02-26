@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f5f3;
+    text-align: center;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+/* PROFILOVÁ FOTKA */
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #f2d8d3;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.profile img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* INFO BOX */
+.intro {
+    background: #f6ede5;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.intro h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.intro p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* BUTTON */
+.contact-btn {
+    background: #7f7267;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.social-icons a {
+    color: black;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #7f7267;
+}
+
+footer p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* RESPONZIVITA */
+
+/* TABLET */
+@media (min-width: 768px) {
+    .image-container::after {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile img {
+        width: 300px;
+    }
+
+    .intro {
+        max-width: 70%;
+    }
+
+    .contact-btn {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .social-icons {
+        font-size: 26px;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    body {
+        padding: 40px;
+    }
+
+    .image-container::after {
+        width: 180px;
+        height: 180px;
+    }
+
+    .profile img {
+        width: 350px;
+    }
+
+    .intro {
+        max-width: 50%;
+    }
+
+    .contact-btn {
+        font-size: 20px;
+        padding: 18px 35px;
+    }
