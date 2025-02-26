@@ -27,7 +27,7 @@
 
 
 body{
-    background-color: aqua;
+    background-color: rgb(113, 122, 122);
     display: flex;
     justify-content: center;
     align-items: center;
