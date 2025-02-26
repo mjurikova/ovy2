@@ -1,0 +1,57 @@
+
+@keyframes move {
+    0% {
+        top: 0;
+       left: 0;
+    }
+
+    25%{
+        top:  0% ;
+        left: 50% ;
+    }
+
+    50%{
+        bottom: 50%  ;
+        left: 50%  ;
+    }
+    75%{
+        left: 0  ;
+        top: 50%  ;
+    }
+
+    100% {
+        top: 0%;
+        left: 0;
+    }
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.kruh{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    border: solid black 15px ;
+    top: 50%;
+    right: 50%;
+    transition: border 0.5s ;
+    animation: 3s 1s infinite move ;
+}
+ 
+.kruh:hover{
+    background-color: yellow;
+    border: solid rgb(28, 179, 141) 5px ;
+    
+}
+
+
+    
+ 
