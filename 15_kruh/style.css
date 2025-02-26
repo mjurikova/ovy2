@@ -11,7 +11,7 @@
     }
 
     50%{
-        bottom: 50%  ;
+        top: 50%  ;
         left: 50%  ;
     }
     75%{
@@ -25,6 +25,7 @@
     }
 }
 
+
 body{
     background-color: aqua;
     display: flex;
@@ -34,16 +35,13 @@ body{
 }
  
 .kruh{
-    background-color: red;
-    width: 100px;
-    height: 100px;
     position: absolute;
-    border-radius: 50%;
-    border: solid black 15px ;
     top: 50%;
     right: 50%;
     transition: border 0.5s ;
-    animation: 3s 1s infinite move ;
+    animation: 3s  infinite example ;
+    background: rgb(217,74,230);
+    background: linear-gradient(90deg, rgba(217,74,230,1) 7%, rgba(237,139,190,1) 40%, rgba(152,225,242,1) 100%);
 }
  
 .kruh:hover{
@@ -52,6 +50,24 @@ body{
     
 }
 
+@keyframes example {
+    0% {
+       color: red;
+    }
 
-    
+    25%{
+        color: blue;
+    }
+
+    50%{
+       color: purple;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+       color: yellow;
+    }
+
+}
  
