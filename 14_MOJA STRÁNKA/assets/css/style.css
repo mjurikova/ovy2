@@ -90,15 +90,41 @@ img {
 }
 
 footer {
-    position: relative;
-    width: 100vw;
-    height: 10vh; /* Footer bude zaberať 10% výšky obrazovky */
-    background:var(--cream);
+    background-color: var(--cream);
+    text-align: center;
+    padding: 5px ;
+    border-top: 2px solid var(--brown);
+}
+
+.footer-icons {
     display: flex;
-    flex-direction: column; /* KED APKY LOGA*/
     justify-content: center;
-    align-items: center;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    gap: 40px;
+    
+}
+
+
+
+.icon1 {
+    width: 70px;
+    height: 40px;
+}
+
+.icon2 {
+    width: 40px;
+    height: 40px;
+}
+
+.icon3 {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.footer-copyright {
+    color:var(--brown);
+    font-size: 14px;
 }
 
 
