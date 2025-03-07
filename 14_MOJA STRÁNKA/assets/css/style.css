@@ -9,33 +9,6 @@
     
 }
 
-.nadpis {
-    
-    font-family: "Inria Sans", sans-serif;
-    font-size: 40px;
-    color: var(--brown);
-    background-color: var(--pink);
-    padding: 15px;
-    text-align: left;
-    
-    
-}
-.podnadpis{
-    text-align: left;
-    font-family: "Inria Sans", sans-serif;
-    font-size: 30;
-}
-.text{
-    text-align: left;
-    font-family: "Inika", serif;
-    font-size: 20px;
-}
-
-h1{
-    font-family: "Inria Sans", sans-serif;
-    font-size: 35px;
-    color: var(--black);
-}
 body {
     font-family: "Inika", serif;
     margin: 0;
@@ -76,41 +49,6 @@ nav ul li a {
 main {
     padding: 100px 20px 20px;
     background-color: #fff;
-}
-
-
-.image {
-    position: relative;
-    display: inline-block;
-}
-
-img {
-    width: 220px;
-    margin: 20px 0;
-   
-
-}
-
-
-
-
-
-.home {
-    background: var(--vanila);
-    padding: 90px;
-    margin: 20px auto;
-    max-width: 90%;
-}
-
-.contact-btn {
-    background:var(--brown);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    margin: 20px 0;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
 }
 
 footer {
@@ -154,6 +92,68 @@ footer {
     font-size: 18px;   
     margin-top: 0; /* Odstránenie zbytočnej medzery hore */
 }
+
+
+
+
+
+.nadpis {
+    
+    font-family: "Inria Sans", sans-serif;
+    font-size: 40px;
+    color: var(--brown);
+    background-color: var(--pink);
+    padding: 15px;
+    text-align: left;
+}
+.podnadpis{
+    text-align: left;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 30;
+}
+
+.text{
+    text-align: left;
+    font-family: "Inika", serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 35px;
+    color: var(--black);
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+
+.home-photo {
+    width: 220px;
+    margin: 20px 0;
+   
+
+}
+
+.home {
+    background: var(--vanila);
+    padding: 90px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.contact-btn {
+    background:var(--brown);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 
 
 
@@ -201,9 +201,10 @@ footer {
 
 
 
- 
 
 
-
+ img{
+    width: 300px;
+ }
 
 
