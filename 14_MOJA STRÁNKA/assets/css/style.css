@@ -123,15 +123,21 @@ h1{
     font-size: 35px;
     color: var(--black);
 }
-
-.image {
+ .image{
     position: relative;
     display: inline-block;
+ }
+.pink-box{
+    position: absolute;
+    left: 15px;
+    top: -200px;
+    z-index: 2;
 }
 
-.home-photo {
+.home-photo{
     width: 220px;
     margin: 20px 0;
+    z-index: 1;
    
 
 }
