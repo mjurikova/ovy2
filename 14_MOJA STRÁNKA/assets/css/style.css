@@ -17,7 +17,7 @@ body {
     background-color: var(--white) ;
 }
 
-nav {
+nav{
     background-color:var(--cream);
     padding: 10px 0;
     position: fixed;
@@ -45,6 +45,8 @@ nav ul li a {
     font-weight: bold;
     padding: 10px;
 }
+
+
 
 main {
     padding: 100px 20px 20px;
