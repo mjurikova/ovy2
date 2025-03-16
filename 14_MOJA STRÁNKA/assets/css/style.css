@@ -131,15 +131,35 @@ h1{
  }
 .pink-box{
     position: absolute;
-    left: 15px;
-    top: -200px;
+    left: 75px;
+    top: -170px;
     z-index: 2;
+    transform: translate(-50%, -50%) translate(50px, 50px); /* Posunutie doprava a nadol */
+    width: 180px;
+    height: 260px;
+    
+
+   
 }
 
+
 .home-photo{
-    width: 220px;
+    width: 180px;
+    height: 260px;
     margin: 20px 0;
     z-index: 1;
+   
+    position: relative;
+    
+   
+    z-index: 2; /* Umiestni predný obrázok nad zadným */
+   
+   
+   
+    
+    
+ 
+   
    
 
 }
