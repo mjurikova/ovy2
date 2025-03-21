@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     /* Primary Colors */
 --light-red: hsl(0, 100%, 67%);
@@ -20,7 +21,8 @@
  
 }
  
- 
+ body{ 
+    font-family: "Hanken Grotesk", sans-serif;}
  
 .Result{
    
@@ -29,8 +31,17 @@
     display:flex ;
     flex-direction: column;
     align-items: center;
+    color: var(--white);
+}
+
+.Result__nadpis-vysledok{
+    opacity: 70%;
 }
  
+.Result__p-max-bodov{
+    opacity: 70%;
+}
+
 .Result_div-kruh{
     border-radius: 50%;
     background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(36,33,202,1) 100%);
@@ -39,4 +50,38 @@
     align-items: inherit;
     width: 8rem;
     height: 8rem;
+}
+
+.Result__nadpis-skore{
+    color: var(--white);   
+}
+
+.Result__popis{
+    text-align: center;
+    opacity: 70%;
+}
+
+.Summary__section{
+    border-radius: 50px;
+}
+
+.Summary_section-cerveny{
+    background-color: #FFF6F5; 
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    padding: 10px ;
+    max-width: 80%; 
+}
+
+.Summary_section-zlty{
+    background-color: #FFFBF2;
+}
+
+.Summary_section-zeleny{
+    background-color: #F2FAFA;
+}
+
+.Summary_section-modry{
+    background-color: #F3F3FD;
 }
