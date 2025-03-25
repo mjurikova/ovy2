@@ -182,3 +182,65 @@ h2{
     border-radius: 25px;
     margin-top: 25px;
   }
+
+
+  
+
+ @media screen and (min-width: 1440px) {
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .Result{
+    border-radius: 30px;
+    max-width: 270px;
+    max-height: 420px;
+    height: 100%;
+    width: 100%;
+    padding: 2.4rem;
+    z-index: 1;
+   
+}
+
+.Summary_section-cerveny, .Summary_section-zlty, .Summary_section-zeleny, .Summary_section-modry{
+  width: 90%;
+
+}
+
+.Result__popis{
+  font-size: 18px; 
+}
+
+.Result__nadpis-vysledok{
+  margin-bottom: 60px;
+}
+
+.Result_div-kruh{
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+.Summary{
+  max-width: 300px;
+  max-height: 380px;
+  height: 100%;
+  width: 100%;
+  margin-left: -20px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 3.5rem;
+  
+}
+.Summary__nadpis{
+  font-size: 20px;
+}
+.Result__nadpis-vysledok{
+  font-size: 20px;
+}
+.continue-text{
+  margin-top: 45px;
+}
