@@ -1,0 +1,264 @@
+:root{
+    --brown: rgba(150, 140, 131, 1);
+    --cream: rgba(246, 245, 242, 1);
+    --vanila:rgba(240, 235, 227, 1) ;
+    --pink: rgba(255, 239, 239, 1);
+    --dark-pink: rgba(247, 218, 217, 1) ;
+    --white: rgba(255, 255, 255, 1);
+    --black: rgba(0, 0, 0, 1);
+    
+}
+
+body {
+    font-family: "Inika", serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: var(--white) ;
+}
+
+nav{
+    background-color:var(--cream);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+main {
+    padding: 100px 20px 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: var(--cream);
+    text-align: center;
+    border-top: 2px solid var(--brown);
+    border-bottom: 2px solid var(--brown);
+    border-left: 2px solid var(--brown);
+    border-right: 2px solid var(--brown);
+    padding: 18px; 
+    
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;   
+}
+
+
+.icon1 {
+    width: 70px;
+    height: 40px;
+}
+
+.icon2 {
+    width: 40px;
+    height: 40px;
+}
+
+.icon3 {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.footer-copyright {
+    font-family: "Inter";
+    color:var(--brown);
+    font-size: 18px;   
+    margin-top: 0; /* Odstránenie zbytočnej medzery hore */
+}
+
+
+
+
+
+.nadpis {
+    
+    font-family: "Inria Sans", sans-serif;
+    font-size: 40px;
+    color: var(--brown);
+    background-color: var(--pink);
+    padding: 15px;
+    text-align: left;
+}
+.podnadpis{
+    text-align: left;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 30;
+}
+
+.text{
+    text-align: left;
+    font-family: "Inika", serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 45px;
+    color: var(--black);
+}
+ .image{
+    position: relative;
+    display: inline-block;
+ }
+.pink-box{
+    position: absolute;
+    left: 75px;
+    top: -170px;
+    z-index: 2;
+    transform: translate(-50%, -50%) translate(50px, 50px); /* Posunutie doprava a nadol */
+    width: 180px;
+    height: 260px;
+    
+
+   
+}
+
+
+.home-photo{
+    width: 180px;
+    height: 260px;
+    margin: 20px 0;
+    z-index: 1;
+   
+    position: relative;
+    
+   
+    z-index: 2; /* Umiestni predný obrázok nad zadným */
+   
+   
+   
+    
+    
+ 
+   
+   
+
+}
+
+.home {
+    background: var(--vanila);
+    padding: 10px;
+    margin: 55px ;
+   
+
+   
+}
+.name{
+    font-size: 45px;
+    margin-bottom: -40px;
+    
+}
+.surname{
+    font-size: 45px;
+}
+
+.home_name{
+    margin-top: -30px;
+}
+
+.home_text{
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.contact-btn {
+    background:var(--brown);
+    color: white;
+    border: none;
+    padding: 13px 45px;
+    margin: 70px;
+    margin-top: -50px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+
+.contact-form {
+    background-color: #f9e8e8;
+    padding: 40px;
+    width: 350px;
+    height: 600px;
+    margin: 0 auto; /* zarovná na stred */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 60px;
+    margin-top: 60px;
+ }
+ .form-title {
+    font-size: 80px;
+    font-weight: bold;
+   margin-top: 0;
+   margin-bottom: 0;
+    color:var(--brown);
+ }
+ .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    outline: none;
+    font-family: 'Inria Sans', sans-serif;
+ }
+ .textarea {
+    height: 100px;
+    resize: none;
+ }
+ .submit-btn {
+    padding: 10px 40px;
+    background-color: var(--brown);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inria Sans', sans-serif;
+ }
+
+
+
+
+
+ img{
+    width: 300px;
+ }
+
+
+
+
+ .aboutme{
+    margin-left: 10px;
+ }
