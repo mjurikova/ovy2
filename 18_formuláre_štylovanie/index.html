@@ -3,11 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulár</title>
 </head>
 <body>
+ 
+    <h1>Registrácia</h1>
+        <form action="formular" method="post">
+            <div>
+                <label for="name">Meno</label><br>
+                <input class=riadok  type="text" id="name" name="name"><br><br>
+            </div>
+            
+            <div>
+                <label for="lastname">Priezvisko</label><br>
+                <input class=riadok  type="text" id="lastname" name="lastname"><br><br>
+            </div>
+
+            <div>
+                <label for="email">Email</label><br>
+                <input class=riadok  type="email"  name="email"><br><br>
+            </div>
+            
+            <div>
+                <label for="password">Heslo</label><br>
+                <input class=riadok "text" id="password" name="password"><br><br>
+            </div>
+            
+            <div  >
+                <label for="poswordcorrected">Potvrdenie hesla</label><br>
+                <input class=riadok type="text" id="poswordcorrected" name="poswordcorrected"><br><br>
+            </div>    
+
+            <div class="pohlavie">
+                <input class=riadok  type="radio" id="woman" name="woman" value="woman">
+                <label for="woman">Žena</label>
+            </div>
+            
+            <div class="pohlavie">
+                <input class=riadok   type="radio" id="man" name="man" value="man">
+                <label for="man">Muž</label><br><br>
+            </div>    
+            
+            <div>
+                <input class=riadok   type="checkbox" id="agree" name="agree"" value="agree">
+                <label for="sport">Súhlasím s podmienkami</label><br><br>
+            </div>    
+
+            <div>
+                <label for="country">Krajina:</label><br>
+                <select class=riadok  id="country" name="country" required>
+                    <option value="slovensko">Slovensko</option>
+                    <option value="ceska_republika">Česká republika</option>
+                    <option value="polska">Poľsko</option>
+                    <option value="maďarsko">Maďarsko</option>
+                    <option value="rakúsko">Rakúsko</option>
+                </select><br><br>
+            </div>    
+
+            <div>
+                <label for="message">Poznámky:</label><br>
+                <textarea class=riadok   id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+            </div>
+
+            <div>
+                <button type="submit" value="submit">Odoslať</button>
+            </div>
+
+        </form>
+            
     
-
-
 </body>
 </html>
