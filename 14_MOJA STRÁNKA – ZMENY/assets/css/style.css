@@ -144,6 +144,7 @@ h1{
  .image{
     position: relative;
     display: inline-block;
+  
    
  }
 .pink-box{
@@ -168,6 +169,7 @@ h1{
     z-index: 1;
    
     position: relative;
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.359);
     
    
     z-index: 2; /* Umiestni predný obrázok nad zadným */
