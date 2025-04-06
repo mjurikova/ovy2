@@ -13,14 +13,15 @@
 <body>
     <div class="container">
         <header>
-            <nav>
-                <ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                <nav id="main-nav">
+                    <ul>
                         <li><a href="HOME.html">Domov</a></li>    
                         <li><a href="O MNE.HTML">O mne</a> </li> 
                         <li> <a href="práce.html">Práce</a> </li> 
-                        <li> <a href="kontakt.html">Kontakt</a> </li> 
-                </ul>
-            </nav> 
+                        <li> <a href="kontakt.html">Kontakt</a> </li>
+                    </ul>
+                </nav> 
         </header>
 
             
@@ -75,5 +76,11 @@
 
        
     </div>
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById("main-nav");
+            nav.classList.toggle("show");
+           }
+        </script>
 </body>
 </html>
