@@ -18,6 +18,9 @@ body {
 }
 
 
+
+
+
 header{
     background-color:var(--cream);
     border-top: 2px solid var(--brown);
@@ -77,6 +80,9 @@ footer {
     border-bottom: 2px solid var(--brown);
    
     padding: 18px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
 }
 
@@ -141,7 +147,7 @@ h1{
     font-size: 45px;
     color: var(--black);
 }
- .image{
+.image{
     position: relative;
     display: inline-block;
   
@@ -281,3 +287,86 @@ h1{
  .aboutme{
     margin-left: 10px;
  }
+
+
+
+
+
+
+
+
+/* Na PC zobrazovať menu normálne vodorovne */
+@media (min-width: 769px) {
+    nav {
+        position: static;
+        display: block !important;
+        background: none;
+        height: auto;
+        padding: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    /* Skryť hamburger na PC */
+.menu-toggle {
+    display: none;
+}
+
+
+    header{
+        padding: 30px;
+        
+    }
+
+    nav ul{ 
+        justify-content: right;
+        padding: 0px 40px;
+        gap: 60px;
+    
+    }
+
+
+
+
+
+   .nadpis{
+    width: 400px;
+    font-size: 80px;
+    margin: 30px;
+   }
+   .podnadpis{
+     font-size: 35px;
+     margin: 30px;
+   }
+   .text{
+    font-size: 25px;
+        width: 900px;
+
+        margin-left: 30px;
+        margin-top: -20px;
+        margin-bottom: 80px;
+   }
+
+   .loga{
+
+   }
+
+   .contact-form{
+    width: 900px;
+        height: 600px;
+        margin-bottom: 150px;
+   }
+}
+
+ 
+  
