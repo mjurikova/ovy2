@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01 prvé úlohy</title>
+  <style>
+
+            body{
+            background-color: bisque;
+            }
+
+            .container{
+            margin: 0 auto;
+            width: 800px;  
+            }
+
+            #browser{
+            background-color: palevioletred;
+            padding: 2rem;
+            border-radius: 1em;
+            }
+
+            #uzivatel{
+            background-color: paleturquoise;
+            padding: 2rem;
+            border-radius: 1em;
+            }
+        </style>
+        </head>
+        <body>
+
+        <div class="container">
+
+            
+            <article>
+            <ul id="browser">
+                <!---->
+            </ul>
+            <ul id="uzivatel">
+                <!---->
+            </ul>
+            </article>
+        </div>
+
+
+    <script> //Javascript začne pracovať až vtedy, keď sa načíta stránka
+   
+        let kliky = 0 ;
+
+      document.body.addEventListener("mouseover", kliknutie2);
+    function kliknutie2 (){      
+        let browserZoznam = document.getElementById ("browser"),  // vytiahnut do premennej zoznam s id browser
+            newItem = document.createElement("li"); // do premennej newItem vytvor nový element poloňžky zoznamu <li>
+                
+            newItem.textContent = "Môj prvý JavaScript 😍 "; // naplnil som li elemnt textom "Môj prvý JavaScript 😍"
+            browserZoznam.appendChild (newItem); // pridaj potomka do zoznamu #browser       
+        }            
+        
+
+      document.body.addEventListener("click", kliknutie);
+    function kliknutie (){        
+        kliky++;  
+        let uzivatelZoznam = document.getElementById ("uzivatel");  // vytiahnut do premennej zoznam s id uzivatel
+            newItem = document.createElement("li"); // do premennej newItem vytvor nový element poloňžky zoznamu <li>
+
+            newItem.textContent = "Klik č." +kliky;// naplnil som li elemnt textom "Klikáme o dušu 😍"
+            uzivatelZoznam.appendChild (newItem); // pridaj potomka do zoznamu #uzivatel       
+        }  
+
+    </script>
+
+</body>
