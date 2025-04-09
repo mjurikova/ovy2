@@ -48,7 +48,7 @@
    
         let kliky = 0 ;
 
-      document.body.addEventListener("mouseover", kliknutie2);
+      document.body.addEventListener("keyup", kliknutie2);
     function kliknutie2 (){      
         let browserZoznam = document.getElementById ("browser"),  // vytiahnut do premennej zoznam s id browser
             newItem = document.createElement("li"); // do premennej newItem vytvor nový element poloňžky zoznamu <li>
@@ -64,7 +64,7 @@
         let uzivatelZoznam = document.getElementById ("uzivatel");  // vytiahnut do premennej zoznam s id uzivatel
             newItem = document.createElement("li"); // do premennej newItem vytvor nový element poloňžky zoznamu <li>
 
-            newItem.textContent = "Klik č." +kliky;// naplnil som li elemnt textom "Klikáme o dušu 😍"
+            newItem.textContent = "Klik č." +kliky;// naplnil som li elemnt textom ""Klik č."
             uzivatelZoznam.appendChild (newItem); // pridaj potomka do zoznamu #uzivatel       
         }  
 
