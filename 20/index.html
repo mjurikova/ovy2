@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+  <section>
+    <div class="info">
+      <strong>STATIC:</strong> Predvolená pozícia, nereaguje na top/left.
+    </div>
+    <div class="container">
+      <div class="box static-box">Static</div>
+    </div>
+  </section>
+
+
+   <!-- 
+  =====================
+  2. RELATIVE
+  =====================
+  -->
+  
+  <section>
+    <div class="info">
+      <strong>RELATIVE:</strong> Posúva sa voči pôvodnému miestu (top/left fungujú).
+    </div>
+    <div class="container">
+      <div class="box relative-box">Relative</div>
+    </div>
+  </section>
+  
+
+  <!-- 
+  =====================
+  3. ABSOLUTE
+  =====================
+  -->
+  
+  <section>
+    <div class="info">
+      <strong>ABSOLUTE:</strong> Pozícia sa odvíja od najbližšieho rodiča s <code>position: absolute</code>.
+    </div>
+    <div class="container">
+      <div class="box absolute-box">Absolute</div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="info">
+      <strong>FIXED:</strong> Pozícia sa odvíja od najbližšieho rodiča s <code>position: fixed</code>.
+    </div>
+    <div class="container">
+      <div class="box fixed-box">Fixed</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="info">
+      <strong>STICKY:</strong> Pozícia sa odvíja od najbližšieho rodiča s <code>position: sticky</code>.
+    </div>
+    <div class="container">
+      <div class="box sticky-box"> </div>
+    </div>
+  </section>
+
+</body>
+</html>

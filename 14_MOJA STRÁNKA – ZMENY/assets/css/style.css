@@ -6,7 +6,7 @@
     --dark-pink: rgba(247, 218, 217, 1) ;
     --white: rgba(255, 255, 255, 1);
     --black: rgba(0, 0, 0, 1);
-    
+    --piiink: rgba(247, 218, 217, 1)
 }
 
 body {
@@ -80,7 +80,7 @@ footer {
     border-bottom: 2px solid var(--brown);
    
     padding: 18px; 
-    position: fixed;
+   
     bottom: 0;
     width: 100%;
     
@@ -148,56 +148,29 @@ h1{
     color: var(--black);
 }
 .image{
-    position: relative;
-    display: inline-block;
-  
-   
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 100px;
  }
-.pink-box{
-    position: absolute;
-    left: 75px;
-    top: -170px;
-    z-index: 2;
-    transform: translate(-50%, -50%) translate(50px, 50px); /* Posunutie doprava a nadol */
-    width: 180px;
-    height: 260px;
-   
-    
 
-   
-}
 
 
 .home-photo{
-    width: 180px;
-    height: 260px;
+    width: 380px;
+    height: 460px;
     margin: 20px 0;
-    z-index: 1;
-   
     position: relative;
-    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.359);
-    
-   
-    z-index: 2; /* Umiestni predný obrázok nad zadným */
-
-   
-   
-    
-    
- 
-   
-   
-
+    box-shadow: 40px 40px 0px 0px var(--dark-pink);
 }
 
-.home {
+.obsah-home{
     background: var(--vanila);
-    padding: 10px;
+    width: 400px;
+    height: 300px;
+    padding: 100px;
     margin: 55px ;
-   
-
-   
 }
+
 .name{
     font-size: 45px;
     margin-bottom: -40px;
