@@ -366,22 +366,15 @@ h1{
     display: none;
 }
 
-
     header{
-        padding: 30px;
-        
+        padding: 30px;   
     }
 
     nav ul{ 
         justify-content: right;
         padding: 0px 40px;
         gap: 60px;
-    
     }
-
-
-
-
 
    .nadpis{
     width: 400px;
@@ -395,7 +388,6 @@ h1{
    .text{
     font-size: 25px;
         width: 900px;
-
         margin-left: 30px;
         margin-top: -20px;
         margin-bottom: 80px;
@@ -431,8 +423,7 @@ h1{
 .obsah-home{
     background: var(--vanila);
     width: 500px;
-    height: 350px;
-   
+    height: 350px;  
 }
 
 .name{
@@ -513,8 +504,6 @@ h1{
 
 
 
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
     /* Štýly pre tablety */
     .nadpis{
@@ -533,10 +522,6 @@ text-align: center;
         text-align: center;
         margin: 50px;
         margin-top: 35px;
-
-        
-      
-  
     }
 
     .loga{
