@@ -1,0 +1,106 @@
+:root {
+    --primarna: #ffffff;                    /* Hlavná farba textu - biela */
+    --sekundarna: #111111;                  /* Pozadie celej stránky - tmavá */
+    --overlay-color: rgba(0, 0, 0, 0.5);         /* Polopriehľadné prekrytie - tmavé */
+    --font-main: 'Roboto', sans-serif;          /* Hlavné písmo stránky */
+  }
+  
+  * {
+    box-sizing: border-box;                     /* Padding a border sa započítavajú do celkovej veľkosti */
+  }
+  
+  body {
+    margin: 0;                                  /* Odstráni okraje okolo tela stránky */
+    font-family: var(--font-main);              /* Použije písmo z premennej */
+    color: var(--primarna);                /* Farba textu - biela */
+    background-color: var(--sekundarna);   /* Tmavé pozadie stránky */
+    line-height: 1.6;                           /* Vzdialenosť medzi riadkami */
+  }
+  
+  .container {
+    max-width: 1250px;                          /* Maximálna šírka kontajnera */
+    margin: 0 auto;                             /* Horizontálne vycentrovanie */
+    padding: 1rem;                              /* Vnútorné odsadenie */
+  }
+
+  .header{
+    height: 60vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1617079114138-9cf245e006c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+        
+  }
+
+  .header::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background-color: var(--overlay-color);
+    inset: 0;/*to iste ako top , bottom, right left 0*/
+  }
+
+  .header__obsah{
+    z-index: 2;
+  }
+
+  .header__podnadpis{
+   color: #DADAD6;
+  }
+
+
+
+  .section--blur{
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1700483717331-6da3888bc3db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backdrop-filter: 5;
+  }
+.section--blur::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background-color: var(--overlay-color);
+    inset: 0;/*to iste ako top , bottom, right left 0*/
+    backdrop-filter: blur(3px);
+}
+
+.container{
+    z-index: 2;
+  }
+
+  .button{
+    background-color: var(--primarna);
+    border-radius: 18px;
+    padding: 10px;
+    border: none;
+   font-weight: bold;
+   font-size: smaller;
+   
+  }
+
+ 
+
+  .gallery-container{
+    margin: 30px 20px;
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   gap: 1rem;
+  }
+
+  img{
+    width: 450px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
