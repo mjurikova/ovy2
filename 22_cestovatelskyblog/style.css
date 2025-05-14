@@ -104,3 +104,8 @@
     transition: transform 0.3s ease;
     border-radius: 10px;
   }
+
+  img:hover {
+    filter: blur(2px);
+    transform: scale(1.1);
+}
